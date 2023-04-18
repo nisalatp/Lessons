@@ -1,0 +1,125 @@
+
+  /* Footer */
+  footer{
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #000;
+      height: auto;
+      width: auto;
+      padding-top: 30px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .footer-content{
+      display:inline;
+      text-align: left;
+    }
+    
+    .footer-content h3{
+      font-size: 2.5rem;
+      font-weight: 500;
+      padding-left: 30px;
+      color: #fff;
+    }
+    
+    .footer-content p{
+      text-align: left;
+      padding-left: 30px;
+      line-height: 28px;
+      font-size: 16px;
+      color: #cacdd2;
+    }
+    
+    .socials{
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-left: 30px;
+    }
+    
+    .socials a{
+      text-decoration: none;
+      color: #fff;
+      padding: 5px;
+      border-radius: 50%;
+    }
+    
+    .socials a i{
+      font-size: 1.8rem;
+      transition: color .4s ease;
+    }
+    
+    .socials a:hover i{
+      color: rgb(255, 191, 0);
+    }
+    
+    .footer-bottom{
+      background: #111;
+      width: auto;
+      text-align: center;
+      padding-right: 30px;
+      padding-bottom: 80px;
+    }
+    
+    .footer-bottom p{
+      float: right;
+      font-size: 14px;
+      word-spacing: 2px;
+      color: #fff;
+    }
+    .footer-bottom p a{
+     color:#44bae8;
+     font-size: 16px;
+     text-decoration: none;
+    }
+    .footer-bottom span{
+       text-transform: uppercase;
+       opacity: .4;
+       font-weight: 200;
+    }
+    
+    .footer-menu{
+      float: right;
+      padding-right: 30px;
+      background-color: #000;
+    }
+    
+    .footer-menu ul{
+      display: flex;
+    }
+    
+    .footer-menu ul li{
+      padding-right: 10px;
+      display: block;
+    }
+    
+    .footer-menu ul li a{
+      color: #fff;
+      text-decoration:none;
+    }
+    
+    .footer-menu ul li a:hover{
+      color: rgb(255, 191, 0);
+    }
+    
+    @media (max-width:700px) {
+      
+
+      .footer-menu ul{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+      .footer-content h3{
+        font-size: 1.5rem;
+        margin-top: 40px;
+      }
+
+    }
+    
